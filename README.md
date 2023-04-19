@@ -7,7 +7,7 @@ This AI considers all possible game scenarios and makes the most optimal move us
 ## Setup
 To clone and run this application:
 ```
-$ git clone
+$ git clone https://github.com/juliakoban/Tic-Tac-Toe.git
 $ g++ ticTacToe.cpp
 $ ./a.out
 
