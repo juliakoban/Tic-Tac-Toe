@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Description description description
+Tic Tac Toe AI with Minimax Algorithm
