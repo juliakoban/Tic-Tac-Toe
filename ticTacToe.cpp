@@ -214,7 +214,7 @@ void InitializeBoard(char **board)
 void InitializeGame(char **board)
 {
     system("clear");
-    std::cout << "---WELCOME TO THE TIC-TAC-TOE---" << std::endl; // 32 signs
+    std::cout << std::endl << "---WELCOME TO THE TIC-TAC-TOE---" << std::endl; // 32 signs
     InitializeBoard(board);
     PrintBoard(board);
 }
@@ -297,7 +297,7 @@ void Game(char** board)
 
         if (round == 4 && Evaluate(board) == 0)
         {
-            std::cout << "Tie!" << std::endl;
+            std::cout << "Tie!" << std::endl << std::endl << std::endl << std::endl;
         }
             
         round++;
