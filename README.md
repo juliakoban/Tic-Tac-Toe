@@ -11,6 +11,7 @@ To clone and run this game:
 ```
 $ git clone https://github.com/juliakoban/Tic-Tac-Toe.git
 $ cd Tic-Tac-Toe
-$ g++ ticTacToe.cpp
+$ make build
+$ make run
 
 ```
